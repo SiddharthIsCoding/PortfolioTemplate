@@ -104,7 +104,7 @@ body
     left: 0px;
 }
 
-#about > img
+#block1
 {
     position: absolute;
     left: 20px;
@@ -184,7 +184,7 @@ body
         top: 70vh;
     }
 
-    #about > img
+    #block1
     {
         width: 150px;
         height: 150px;
@@ -202,6 +202,11 @@ body
     {
         top: 250px;
         left: 5px;
+    }
+
+    #sheepie
+    {
+        display: none;
     }
 
 
