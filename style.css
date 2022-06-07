@@ -5,7 +5,7 @@
 body
 {
     margin: 0px;
-    min-height: 200vh;
+    min-height: 300vh;
 }
 
 *
@@ -104,6 +104,8 @@ body
     left: 0px;
 }
 
+
+
 #block1
 {
     position: absolute;
@@ -150,6 +152,68 @@ body
     position: absolute;
     left: 50%;
 }
+
+
+
+
+
+#achivements
+{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 160vh;
+    left: 0px;
+}
+
+#achivements > h1
+{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 65px;
+    position: absolute;
+    right: 25%;
+    top: 20px;
+    color: green;
+}
+
+#block2
+{
+    position: absolute;
+    right: 20px;
+    top:20px;
+}
+
+#achivements > ul 
+{
+    position: absolute;
+    right: 15%;
+    top: 200px;
+}
+
+
+
+#achivements >  ul > li
+{
+    list-style-type: square;
+    font-family: 'Stick' , cursive;
+    font-size: 20px;
+}
+
+#achivements > ul > li > span
+{
+    font-weight: 700;
+    color: green;
+}
+
+#achivements > ul > li > a
+{
+    color: green;
+    text-decoration: underline 3px solid green;
+    background: yellow;
+}
+
+
+
 
 /* phone view */
 
@@ -205,6 +269,31 @@ body
     }
 
     #sheepie
+    {
+        display: none;
+    }
+
+    #block2
+    {
+        width: 150px;
+        height: 150px;
+        left: calc(50% - 75px);
+    }
+
+    #achivements > h1
+    {
+        font-size: 30px;
+        left: 20%;
+        top: 25vh;
+    }
+
+    #achivements > ul
+    {
+        top: 250px;
+        left: 5px;
+    }
+
+    #fishy
     {
         display: none;
     }
